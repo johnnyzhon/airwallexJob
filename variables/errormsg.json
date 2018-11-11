@@ -1,0 +1,21 @@
+
+{
+  "fake": "no info just test",
+  "payment_method_wrong": "'payment_method' field required, the value should be either 'LOCAL' or 'SWIFT'",
+  "swift_code_required": "'swift_code' is required when payment method is 'SWIFT'",
+  "swift_code_not_valid_AU": "The swift code is not valid for the given bank country code: AU",
+  "swift_code_not_valid_CN": "The swift code is not valid for the given bank country code: CN",
+  "swift_code_not_valid_US": "The swift code is not valid for the given bank country code: US",
+  "length_account_num_not_valid_AU": "Length of account_number should be between 7 and 11 when bank_country_code is 'AU'",
+  "length_account_num_not_valid_CN": "Length of account_number should be between 7 and 11 when bank_country_code is 'CN'",
+  "length_account_num_not_valid_US": "Length of account_number should be between 7 and 11 when bank_country_code is 'US'",
+  "length_swift_code_not_valid": "Length of 'swift_code' should be either 8 or 11",
+  "length_account_name_not_valid": "Length of account_name should be between 2 and 10",
+  "account_name_required": "'account_name' is required",
+  "account_number_required": "'account_number' is required",
+  "bank_country_code_required": "'bank_country_code' is required, and should be one of 'US', 'AU', or 'CN'",
+  "bsb_required_AU": "'bsb' is required when bank country code is 'AU'",
+  "aba_required_US": "'aba' is required when bank country code is 'US'",
+  "length_bsb_not_valid": "Length of 'bsb' should be 6",
+  "length_aba_not_valid": "Length of 'aba' should be 9"
+}
