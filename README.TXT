@@ -20,14 +20,15 @@ test endpoint url: http://preview.airwallex.com:30001/bank
 [Testsuite overview]:
 Total 51 cases, and detail as follow testsuites,
 CollectCustomerBankInfoTest
-CollectCustomerBankInfoTest . Account Name Testsuite(for account name test,include tags:AC,accountName)
-CollectCustomerBankInfoTest . Account Number	
-CollectCustomerBankInfoTest . Account Number . Account Number Unvalid Testsuite(for account name test,tags:AC,accountNumber)
+CollectCustomerBankInfoTest . Account Name Testsuite (for account name test, tags:AC,accountName)
+CollectCustomerBankInfoTest . Account Number	(for account name test,tags:AC,accountNumber)
+CollectCustomerBankInfoTest . Account Number . Account Number Unvalid Testsuite
 CollectCustomerBankInfoTest . Account Number . Account Number Valid Testsuite	
 CollectCustomerBankInfoTest . Bank Country Code Testsuite(for bank country code,bsb,aba test,tags:AC,bankCountryCode,aba,bsb)
 CollectCustomerBankInfoTest . Payment Method(for payment method test,tags:AC,payment)
 CollectCustomerBankInfoTest . Payment Method . Payment Method Local Testsuite	
-CollectCustomerBankInfoTest . Payment Method . Payment Method Swift Testsuite	
+CollectCustomerBankInfoTest . Payment Method . Payment Method Swift Testsuite
+CollectCustomerBankInfoTest . swift_code_testsuite (for swift code test,tags:AC,swiftCode)
 
 [log]
 You could find whole runing log in log directory,maybe helpful for dev investigate bugs.
