@@ -1,4 +1,4 @@
-[Auther] zhongqiang smone123@126.com
+[Author] zhongqiang smone123@126.com
 
 [Environment]
 
