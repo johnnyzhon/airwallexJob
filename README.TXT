@@ -63,7 +63,7 @@ say account number should be 1~17 characters for US in one place,and say account
 @case:
 account num should not be 18 characters@US
 2.some scenario did not define error msg in business requirement;
-this cases is very wrong, so just use 'fake' msg to compare with it at some of this cases, and need to replace it later in cases.
+this cases is very wrong  by coincidence, so just use 'fake' msg to compare with it at some of this cases, and need to replace it later in cases.
 @case: ...
 PS: There maybe some misstake in cases due to time constraints. sorry for that.
 END
