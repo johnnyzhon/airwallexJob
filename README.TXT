@@ -13,6 +13,7 @@ requests                               2.20.1
 test endpoint url: http://preview.airwallex.com:30001/bank
 
 [Usage]
+0.Test macbook with above tools should be ready firstly;
 1.Download from github;
 2.untar to a local directory and change path to local directory;
 3.run all case with AC tag via cmd: pybot -d ./log -i AC ./CollectCustomerBankInfoTest
@@ -66,5 +67,5 @@ account num should not be 18 characters@US
 2.some scenario did not define error msg in business requirement;
 this cases is very wrong  by coincidence, so just use 'fake' msg to compare with it at some of this cases, and need to replace it later in cases.
 @case: ...
-PS: There maybe some misstake in cases due to time constraints. sorry for that.
+PS: There maybe some misstake in cases due to time constraints, if has, sorry for that.
 END
